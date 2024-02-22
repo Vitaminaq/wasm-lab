@@ -1,1 +1,0 @@
-D:\cpp\emsdk\upstream\emscripten\em++.bat  --pre-js D:/study/wasm-lab/cmake/wasm/pre.js     -std=c++17     -lembind     -s MODULARIZE=1     -s WASM=1     -s EXPORT_NAME="ModuleInit" @CMakeFiles\Module.dir\objects1.rsp -o bin\Module.js 
