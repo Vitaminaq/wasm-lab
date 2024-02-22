@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>wasm</title>
+        <script src="/build/bin/Module.js"></script>
+        <script>
+            ModuleInit().then((Module) => {
+                console.log("Module ========", Module);
+                console.log("计算结果", Module._add(1, 2));
+            });
+        </script>
+    </head>
+    <body>
+        <div>
+            12321321
+        </div>
+    </body>
+</html>
